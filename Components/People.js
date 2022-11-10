@@ -9,7 +9,7 @@ function PeoplePage ({ navigation }) {
           justifyContent: "center",
           alignItems: "center"
         }}>
-        <Text>Welcome to the Office!</Text>
+        <Text>Coworkers...</Text>
     
         <Button
         title="Back to Office"
@@ -20,4 +20,4 @@ function PeoplePage ({ navigation }) {
     );
   }
 
-export default OfficePage;
+export default PeoplePage;

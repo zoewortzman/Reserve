@@ -7,6 +7,7 @@ import App from './App'
 
 function OfficePage ({ navigation }) {
     return (
+        
       <View style={{
           flex: 1,
           justifyContent: "center",
@@ -17,7 +18,8 @@ function OfficePage ({ navigation }) {
         <Button
         title="Go see your coworkers"
         onPress={() =>
-        navigation.navigate("PeoplePage")
+            
+        navigation.push("PeoplePage")
       }/>
       </View>
     );
